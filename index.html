@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang=en>
+<meta charset=utf-8>
+<meta content="width=device-width,initial-scale=1" name=viewport>
+<title>Orang Design</title>
+<style>
+	* {
+		margin: 0px;
+		padding: 0px;
+		outline: 0px
+	}
+	
+	.clear {
+		clear: both
+	}
+	
+	.header_section {
+		width: 100%;
+		background-color: #3A2E22;
+		height: 40px;
+		margin: 0px
+	}
+	
+	.container {
+		width: 80%;
+		margin: 0 auto
+	}
+	
+	.button {
+		width: 20%;
+		height: 40px;
+		margin: 0px;
+		float: left
+	}
+	
+	.login {
+		width: 40%;
+		height: 40px;
+		margin: 0px;
+		float: left;
+		margin-left: 2%;
+		text-align: center
+	}
+	
+	.login a {
+		color: #CC8B31;
+		text-decoration: none;
+		line-height: 40px
+	}
+	
+	.signup {
+		width: 40%;
+		height: 40px;
+		margin: 0px;
+		float: left;
+		margin-left: 2%;
+		text-align: center
+	}
+	
+	.signup a {
+		color: #CC8B31;
+		text-decoration: none;
+		line-height: 40px
+	}
+	
+	.nav_bar {
+		width: 50%;
+		height: 40px;
+		margin: 0px;
+		float: right
+	}
+	
+	.nav_bar ul {
+		list-style: none;
+		margin: 0px;
+		padding: 0px
+	}
+	
+	.nav_bar ul li {
+		float: left
+	}
+	
+	.nav_bar ul li a {
+		color: #CCc;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		padding: 10px 22px
+	}
+	
+	.nav_bar ul li a:hover {
+		color: #CC8B31
+	}
+	
+	.bnar_section {
+		width: 100%;
+		height: 405px;
+		margin: 0px;
+		background-color: #423225
+	}
+	
+	.bottom_header {
+		width: 100%;
+		height: 140px;
+		margin: 0px;
+		background-color: #423225
+	}
+	
+	.bottom_header_wrapper {
+		width: 90%;
+		height: 140px;
+		margin: 0px auto
+	}
+	
+	.logo {
+		width: 40%;
+		height: 140px;
+		margin: 0px auto;
+		padding: 15px
+	}
+	
+	.logo_img {
+		width: 15%;
+		height: 60px;
+		margin: 0px auto;
+		padding-bottom: 10px
+	}
+	
+	.logo_img img {
+		height: 70px
+	}
+	
+	.logo_title {
+		width: 80%;
+		height: 60px;
+		margin: 0px auto
+	}
+	
+	.logo_title h3 {
+		text-align: center;
+		font-size: 26px;
+		font-weight: 600;
+		color: white;
+		padding-top: 10px
+	}
+	
+	.logo_title p {
+		text-align: center;
+		font-size: 16px;
+		font-weight: 600;
+		color: #fff
+	}
+	
+	.banar_bottom_secton {
+		width: 100%;
+		height: 230px;
+		margin: 0px;
+		padding-top: 30px
+	}
+	
+	.banar_bottom {
+		width: 90%;
+		height: 230px;
+		background-color: #3B2D24;
+		margin: 0px auto;
+		border-radius: 10px 10px 0px 0px;
+		border-top: 1px solid #CC8B31
+	}
+	
+	.content {
+		width: 30%;
+		height: 220px;
+		margin: 0px;
+		float: left;
+		margin: 15px 0 0 0
+	}
+	
+	.content_box1 {
+		width: 25%;
+		height: 140px;
+		margin: 15px 5px 0 12%;
+		float: left
+	}
+	
+	.content_box1 img {
+		height: 50px
+	}
+	
+	.content_text {
+		width: 60%;
+		min-height: 112px;
+		margin: 10px 0 0 0;
+		float: left;
+		color: white
+	}
+	
+	.content h2 {
+		color: #CC8B31;
+		font-size: 20px;
+		margin-left: 38px
+	}
+	
+	.moreinfo {
+		color: white;
+		padding-left: 105px;
+		padding-top: 20px
+	}
+	
+	.slider {
+		width: 100%;
+		height: 300px;
+		background-color: #CC8B31;
+		position: relative;
+		margin: 0 auto
+	}
+	
+	.slider_wrapper {
+		width: 75%;
+		height: 336px;
+		background-color: #E5A02B;
+		position: absolute;
+		top: -20px;
+		bottom: -20px;
+		right: 167px;
+		border-radius: 15px
+	}
+	
+	.left_aroo {
+		width: 30px;
+		height: 100px;
+		margin: 110px 130px;
+		float: left;
+		font-size: 60px;
+		color: #874B02
+	}
+	
+	.right_aroo {
+		width: 30px;
+		height: 100px;
+		margin: 110px 130px;
+		float: right;
+		font-size: 60px;
+		color: #874B02
+	}
+	
+	.right_aroo img {
+		height: 50px
+	}
+	
+	.left_aroo img {
+		height: 50px
+	}
+	
+	.box {
+		width: 20%;
+		height: 280px;
+		margin: 20px 1%;
+		float: left;
+		padding-left: 17px
+	}
+	
+	.box:hover {
+		transform: scale(1.1)
+	}
+	
+	.box_img {
+		width: 90%;
+		height: 200px;
+		margin: 0 auto;
+		position: relative
+	}
+	
+	.slyder_img img {
+		width: 220px;
+		height: 200px;
+		border: 2px solid #fff
+	}
+	
+	.box h3 {
+		margin-left: 15px;
+		margin-bottom: 10px
+	}
+	
+	.box p {
+		margin-left: 15px;
+		color: white
+	}
+	
+	.img_tag {
+		width: 0;
+		height: 0;
+		border-top: 100px solid rgba(72, 57, 44, 0.7);
+		border-right: 100px solid transparent;
+		position: absolute
+	}
+	
+	.img_tag h4 {
+		transform: rotate(-45deg);
+		margin-top: -35px;
+		text-indent: 20px;
+		color: white
+	}
+	
+	.content_section {
+		width: 100%;
+		height: 450px;
+		margin: 0px;
+		background-color: #E8E1D1
+	}
+	
+	.content_wrapper {
+		width: 80%;
+		height: 450px;
+		margin: 0px auto
+	}
+	
+	.content_left {
+		width: 64%;
+		height: 380px;
+		margin: 25px 0;
+		float: left
+	}
+	
+	.left_wrapper {
+		width: 90%;
+		height: 320px;
+		margin: 15px auto
+	}
+	
+	.left_wrapper h2 {
+		margin-left: 20px;
+		font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+		font-size: 20px;
+		padding: 20px
+	}
+	
+	.feature_content {
+		width: 46%;
+		height: 100px;
+		margin: 10px 2%;
+		float: left
+	}
+	
+	.feature_img {
+		width: 30%;
+		height: 100px;
+		margin: 0px 1% 0 0;
+		float: left
+	}
+	
+	.feature_img img {
+		height: 60px;
+		width: 80%
+	}
+	
+	.feature_text {
+		width: 65%;
+		height: 100px;
+		margin: 0px;
+		float: left
+	}
+	
+	.content_right {
+		width: 35%;
+		height: 380px;
+		margin: 25px 0;
+		float: right
+	}
+	
+	.right_wrapper {
+		width: 90%;
+		height: 320px;
+		margin: 15px auto
+	}
+	
+	.right_wrapper h2 {
+		margin-left: -4px;
+		font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+		font-size: 20px;
+		padding: 20px
+	}
+	
+	.news {
+		width: 90%;
+		height: 100px;
+		margin: 10px auto
+	}
+	
+	.news h1 {
+		font-size: 20px;
+		font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+		padding: 5px
+	}
+	
+	.content_bottom {
+		width: 100%;
+		height: 350px;
+		margin: 0px;
+		background: #EEEADE
+	}
+	
+	.content_bottom_wrapper {
+		width: 90%;
+		height: 350px;
+		margin: 0px auto
+	}
+	
+	.content_left_wrapper {
+		width: 65%;
+		height: 300px;
+		margin: 25px 0;
+		float: left
+	}
+	
+	.content_left_wrapper p {
+		font-size: 14px;
+		color: #333;
+		text-align: justify
+	}
+	
+	.content_left_wrapper h2 {
+		font-size: 20px;
+		margin-left: 55px;
+		padding: 10px
+	}
+	
+	.content_left_wrapper h3 {
+		font-size: 16px
+	}
+	
+	.testimonial {
+		width: 35%;
+		height: 300px;
+		margin: 25px 0;
+		float: right
+	}
+	
+	.testimonial h2 {
+		font-size: 20px;
+		margin-left: 30px;
+		padding: 10px
+	}
+	
+	.text_box {
+		width: 80%;
+		height: 250px;
+		margin: 0px auto
+	}
+	
+	.testimonial_text {
+		width: 80%;
+		height: 250px;
+		margin: 0px auto
+	}
+	
+	.footer {
+		width: 100%;
+		height: 110px;
+		margin: 0px;
+		background: #3F3124
+	}
+	
+	.footer_wrapper {
+		width: 90%;
+		height: 60px;
+		margin: 0px auto;
+		padding: 10px
+	}
+	
+	.footer_left {
+		width: 30%;
+		height: 60px;
+		margin: 0px;
+		float: left
+	}
+	
+	.footer_left_icon {
+		width: 16%;
+		height: 60px;
+		margin: 0px;
+		float: left
+	}
+	
+	.footer_left_icon img {
+		height: 70px
+	}
+	
+	.copyright {
+		width: 50%;
+		height: 60px;
+		margin: 0px;
+		float: left
+	}
+	
+	.copyright h2 {
+		font-size: 18px;
+		color: white;
+		text-align: center;
+		padding-top: 10px
+	}
+	
+	.copyright p {
+		font-size: 14px;
+		color: white;
+		text-align: center
+	}
+	
+	.footer_right {
+		width: 50%;
+		height: 60px;
+		margin: 0px;
+		float: right
+	}
+	
+	.footer_right p {
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		padding-top: 15px
+	}
+
+</style>
+<div class=header_section>
+	<div class=container>
+		<div class=button>
+			<div class=login><a href="">Login</a></div>
+			<div class=signup><a href="">Sign up</a></div>
+		</div>
+		<div class=nev_wrapper>
+			<div class=nav_bar>
+				<ul>
+					<li><a href=#>Home</a>
+						<li><a href=#>Our Design</a>
+							<li><a href=#>Servicrs</a>
+								<li><a href=#>About Us</a>
+									<li><a href=#>Contuct us</a></ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class=bnar_section>
+	<div class=container>
+		<div class=bottom_header>
+			<div class=bottom_header_wrapper>
+				<div class=logo>
+					<div class=logo_img><img alt="" src=logo.png></div>
+					<div class=logo_title>
+						<h3>ORANGE DESIGN</h3>
+						<p>Lorem ipsum dolor</div>
+				</div>
+			</div>
+		</div>
+		<div class=banar_bottom_secton>
+			<div class="clear banar_bottom">
+				<div class=content>
+					<h2>Web Developement</h2>
+					<div class=content_box1><img alt="" src=wb.png></div>
+					<div class=content_text>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloribus iure quam facilis numquam error.</div>
+					<div class=moreinfo>
+						<a href="" style=text-decoration:none;color:#cc8b31;font-weight:700;padding:10px>
+							<p>More Information...»</p>
+						</a>
+					</div>
+				</div>
+				<div class=content>
+					<h2>SEO</h2>
+					<div class=content_box1><img alt="" src=seo.png></div>
+					<div class=content_text1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloribus iure quam facilis numquam error.</div>
+					<div class=moreinfo>
+						<a href="" style=text-decoration:none;color:#cc8b31;font-weight:700;padding:10px>
+							<p>More Information...»</p>
+						</a>
+					</div>
+				</div>
+				<div class=content>
+					<h2>Support</h2>
+					<div class=content_box1><img alt="" src=op.png></div>
+					<div class=content_text>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloribus iure quam facilis numquam error.</div>
+					<div class=moreinfo>
+						<a href="" style=text-decoration:none;color:#cc8b31;font-weight:700;padding:10px>
+							<p>More Information...»</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class=slider>
+	<div class=left_aroo><img alt="" src=leftarros.png></div>
+	<div class=slider_wrapper>
+		<div class=box>
+			<h3>Lorem ipsum</h3>
+			<div class=box_img>
+				<div class=img_tag>
+					<h4>LOREM</h4>
+				</div>
+				<div class=slyder_img><img alt="" src=s1.jpg></div>
+			</div>
+			<p>lorem ipsum dolor sit Lorem ipsum dolor sit amet.
+				<p style=color:#3f3124>Read more»</div>
+		<div class=box>
+			<h3>Lorem ipsum</h3>
+			<div class=box_img>
+				<div class=img_tag>
+					<h4>LOREM</h4>
+				</div>
+				<div class=slyder_img><img alt="" src=s2.jpg></div>
+			</div>
+			<p>lorem ipsum dolor sit amet Lorem ipsum dolor sit.
+				<p style=color:#3f3124>Read more»</div>
+		<div class=box>
+			<h3>Lorem ipsum</h3>
+			<div class=box_img>
+				<div class=img_tag>
+					<h4>LOREM</h4>
+				</div>
+				<div class=slyder_img><img alt="" src=s3.jpg></div>
+			</div>
+			<p>lorem ipsum dolor sit Lorem ipsum dolor sit.
+				<p style=color:#3f3124>Read more»</div>
+		<div class=box>
+			<h3>Lorem ipsum</h3>
+			<div class=box_img>
+				<div class=img_tag>
+					<h4>LOREM</h4>
+				</div>
+				<div class=slyder_img><img alt="" src=s4.jpg></div>
+			</div>
+			<p>lorem ipsum dolor sit amet Lorem ipsum dolor sit.
+				<p style=color:#3f3124>Read more»</div>
+	</div>
+	<div class=right_aroo><img alt="" src=rightarros.png></div>
+</div>
+<div class=content_section>
+	<div class="clear content_wrapper">
+		<div class=content_left>
+			<div class=left_wrapper>
+				<h2>Featured Service</h2>
+				<div class=feature_content>
+					<div class=feature_img><img alt="" src=b1.png></div>
+					<div class=feature_text>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit.</div>
+				</div>
+				<div class=feature_content>
+					<div class=feature_img><img alt="" src=b3.jpg></div>
+					<div class=feature_text>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nihil nobis.</div>
+				</div>
+				<div class=feature_content>
+					<div class=feature_img><img alt="" src=b4.jpg></div>
+					<div class=feature_text>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nihil nobis.</div>
+				</div>
+				<div class=feature_content>
+					<div class=feature_img><img alt="" src=b5.jpg></div>
+					<div class=feature_text>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nihil nobis.</div>
+				</div>
+			</div>
+		</div>
+		<div class=content_right>
+			<div class=right_wrapper>
+				<h2>Latest News</h2>
+				<div class=news>
+					<h1>01 July 2017</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloribus iure quam facilis numquam error, distinctio, minus.</div>
+				<div class=news>
+					<h1>01 July 2017</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloribus iure quam facilis numquam error, distinctio, minus.</div>
+				<div>
+					<a href="" style=text-decoration:none;color:#cc8b31;font-weight:700;padding:10px>
+						<p style=margin-left:20px>More News...»</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class=content_bottom>
+	<div class=content_bottom_wrapper>
+		<div class=content_left_wrapper>
+			<h2>What We Do</h2>
+			<div class=text_box>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eius, ut adipisci, quos distinctio.</p><br>
+				<h3>Lorem ipsum dolor sit amet, dolores cum culpa natus asperiores iste repellat.</h3><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eius, ut adipisci, quos distinctio, laudantium atque unde dolore omnis consequatur harum deleniti exercitationem earum est odio, perferendis sed. Incidunt, commodi.</p><br>
+				<div>
+					<a href="" style=text-decoration:none;font-weight:700;padding:10px>
+						<p style=color:#cc8b31;font-size:16px>More News...»</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class=testimonial>
+			<h2>Testimonial</h2>
+			<div class=testimonial_text>
+				<p>Lorem ipsum dolor sit amet,ipsum dolor sit amet consectetur adipisicing elit.laudantium unde dolore omnis consequatur.
+					<div>
+						<a href="" style=text-decoration:none;font-weight:700;padding:10px>
+							<p style=color:#cc8b31>Read More...»</p>
+						</a>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eius, ut adipisci, quos distinctio, laudantium atque unde dolore omnis consequatur.
+						<div>
+							<a href="" style=text-decoration:none;font-weight:700;padding:10px>
+								<p style=color:#cc8b31>Read More...»</p>
+							</a>
+						</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class=footer>
+	<div class=footer_wrapper>
+		<div class=footer_left>
+			<div class=footer_left_icon><img alt="" src=logo.png></div>
+			<div class=copyright>
+				<h2>ORANGE DESIGN</h2>
+				<p>Lorem ipsum dolor</div>
+		</div>
+		<div class=footer_right>
+			<p>© copyright 2017 | all rights reserved by mnh.saki</div>
+	</div>
+</div>
